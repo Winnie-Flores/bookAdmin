@@ -1,0 +1,91 @@
+.container{
+    margin: 0 auto;
+    
+    width: 90%;
+    margin-top: 0;
+    padding-top: 0;
+}
+.head{
+    margin-top: 0;
+    height: 70px;
+    background-color: rgb(89, 189, 252);
+}
+.title{
+    width: 300px;
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 1%;
+    color: white;
+    font-size: 30px;
+    float: left;
+}
+.dropOut{
+    width: 80px;
+    height: 40px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 5%;
+}
+.below{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    background-color: rgb(244, 242, 240);
+}
+.search{
+    height: 100px;
+    font-size: 20px;
+}
+.inputBox{
+    width: 220px;
+    height: 30px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.bookList {
+  
+  
+}
+table{
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    width: 90%;
+    height: 560px;
+    margin: 0 auto;
+    display: block;
+    overflow-x: auto;
+    border-spacing: 0;
+    border: 1px solid rgb(160 160 160);
+}
+thead{
+    background-color: rgb(228 240 245);
+}
+tbody {
+  white-space: nowrap;
+}
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+  padding: 18px 10px;
+  border-top-width: 0;
+  border-left-width: 0;
+}
+th {
+  position: sticky; 
+  top: 0;
+  background: #e4e1e1;
+  vertical-align: bottom;
+}
+
+.nameCol{
+    width: 35%;
+}
+.authorCol{
+    width: 30%;
+}
+.categoryCol{
+    
+}
+.is_lentCol{
+    width: 30%;
+}
